@@ -36,6 +36,7 @@ figure(1);
 plot(ff,Y2,'r');
 xlabel('Frequency, Hz');
 ylabel('Fourier-image modulus squared');
+
 figure(2);
 subplot(2,2,1);
 plot(t,real(y),'r');
@@ -43,17 +44,20 @@ axis([0 NT*T -1.1*A 1.1*A]);
 title('Real part');
 xlabel('Time, s');
 ylabel('Initial signal');
+
 subplot(2,2,2);
 plot(t,imag(y),'b');
 axis([0 NT*T -1.1*A 1.1*A]);
 title('Imaginary part');
 xlabel('Time, s');
 ylabel('Initial signal');
+
 subplot(2,2,3);
 plot(t,real(ys),'r');
 axis([0 NT*T -1.1*A 1.1*A]);
 xlabel('Time, s');
 ylabel('Restored signal');
+
 subplot(2,2,4);
 plot(t,imag(ys),'b');
 axis([0 NT*T -1.1*A 1.1*A]);
