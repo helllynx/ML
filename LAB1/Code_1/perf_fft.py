@@ -71,20 +71,20 @@ def FFT(fft_func, signal_func, signal_freq, signal_duration=1.0, need_plot_sp=Tr
         plt.show()
 
 
-# time_ = arange(0.1, 1, 0.05)
-#
-# for t in time_:
-#     FFT(fft, sin, 2000, t, False)
-#
-# plotMe(X_timer, Y_timer, 'FFT')
-#
-# X_timer.clear()
-# Y_timer.clear()
-#
-# for t in time_:
-#     FFT(DFT, sin, 2000, t, False)
-#
-# plotMe(X_timer, Y_timer, 'DFT')
+time_ = arange(0.1, 1, 0.05)
+
+for t in time_:
+    FFT(fft, sin, 2000, t, False)
+
+plotMe(X_timer, Y_timer, 'FFT')
+
+X_timer.clear()
+Y_timer.clear()
+
+for t in time_:
+    FFT(DFT, sin, 2000, t, False)
+
+plotMe(X_timer, Y_timer, 'DFT')
 
 
 
