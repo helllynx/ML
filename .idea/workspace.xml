@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc976405-0802-4ec9-ae4b-f3023f30c34c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/Lab4.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab4/dig_tf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/dig_tf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/.ipynb_checkpoints/Lab4-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/.ipynb_checkpoints/Lab4-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/Lab4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/Lab4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/cijfer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/image_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/cijfer2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/image_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/model/model.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/model/model.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/model/model.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/model/model.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/TF_HW_MNIST/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,9 +26,9 @@
     <SUITE FILE_PATH="coverage/ML$tens_and_or.coverage" NAME="tens_and_or Coverage Results" MODIFIED="1520610348461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LAB2/Code_2" />
     <SUITE FILE_PATH="coverage/ML$createModel.coverage" NAME="createModel Coverage Results" MODIFIED="1524076684391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab4/TensorFlow-Character-Recognition-master" />
     <SUITE FILE_PATH="coverage/ML$image_generator.coverage" NAME="image_generator Coverage Results" MODIFIED="1523691140494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab4" />
-    <SUITE FILE_PATH="coverage/ML$train.coverage" NAME="train Coverage Results" MODIFIED="1523694403909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab4/TF_HW_MNIST" />
+    <SUITE FILE_PATH="coverage/ML$train.coverage" NAME="train Coverage Results" MODIFIED="1524144834097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab4/TF_HW_MNIST" />
     <SUITE FILE_PATH="coverage/ML$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1520619398659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LAB2/Code_2" />
-    <SUITE FILE_PATH="coverage/ML$main.coverage" NAME="main Coverage Results" MODIFIED="1524076690330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab4/TF_HW_MNIST" />
+    <SUITE FILE_PATH="coverage/ML$main.coverage" NAME="main Coverage Results" MODIFIED="1524144174793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab4/TF_HW_MNIST" />
     <SUITE FILE_PATH="coverage/ML$dig_tf.coverage" NAME="dig_tf Coverage Results" MODIFIED="1523691203816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab4" />
     <SUITE FILE_PATH="coverage/ML$another_perc.coverage" NAME="another_perc Coverage Results" MODIFIED="1523467214786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LAB2/Code_2" />
   </component>
@@ -39,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="195">
+              <caret line="61" column="24" selection-end-line="81" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -51,11 +58,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            <state relative-caret-position="240">
+              <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,10 +99,10 @@
         <option value="$PROJECT_DIR$/LAB2/Code_2/perceptron.py" />
         <option value="$PROJECT_DIR$/LAB2/Code_2/another_perc.py" />
         <option value="$PROJECT_DIR$/Lab4/dig_tf.py" />
-        <option value="$PROJECT_DIR$/Lab4/TF_HW_MNIST/main.py" />
         <option value="$PROJECT_DIR$/Lab4/TF_HW_MNIST/input_data.py" />
         <option value="$PROJECT_DIR$/Lab4/TensorFlow-Character-Recognition-master/createModel.py" />
         <option value="$PROJECT_DIR$/Lab4/TF_HW_MNIST/Lab4.ipynb" />
+        <option value="$PROJECT_DIR$/Lab4/TF_HW_MNIST/main.py" />
         <option value="$PROJECT_DIR$/Lab4/TF_HW_MNIST/train.py" />
       </list>
     </option>
@@ -116,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +148,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.train">
     <configuration name="createModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,9 +273,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.createModel" />
-        <item itemvalue="Python.train" />
         <item itemvalue="Python.dig_tf" />
         <item itemvalue="Python.image_generator" />
       </list>
@@ -293,11 +303,12 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="2" />
-      <window_info anchor="right" id="Run" order="5" weight="0.45" />
+      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.45" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32843137" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13636364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17575757" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" weight="0.32954547" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32861635" />
       <window_info anchor="right" id="SciView" order="1" weight="0.5242424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -308,7 +319,6 @@
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +328,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -450,22 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/cijfer.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/cijfer2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/Lab4.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -480,10 +494,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/image_3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/image_7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        <state relative-caret-position="240">
+          <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab4/TF_HW_MNIST/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="61" column="24" selection-end-line="81" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -77,5 +77,5 @@ class handwritingDetection():
 
 if __name__ == '__main__':
     detector = handwritingDetection()
-    print(detector.detect('cijfer.png'))
-    print(detector.detect('cijfer2.png'))
+    print(detector.detect('image_7.png'))
+    print(detector.detect('image_3.png'))

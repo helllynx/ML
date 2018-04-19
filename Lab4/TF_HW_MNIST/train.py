@@ -83,7 +83,7 @@ sess.run(tf.global_variables_initializer())
 
 batchSize = 50
 
-for i in range(20000):
+for i in range(3000):
     batch = mnist.train.next_batch(50)
     image = change_size(batch[0])
     if i % 1000 == 0:
