@@ -51,7 +51,7 @@ def makeCNN(x, keep_prob):
 
 
 class handwritingDetection():
-    def __init__(self):
+    def __init__(self, model_path):
         self.x = tf.placeholder(tf.float32, [None, 28, 28, 1], name="x")
         self.keep_prob = tf.placeholder("float")
         self.y_conv = makeCNN(self.x, self.keep_prob)
@@ -62,20 +62,27 @@ class handwritingDetection():
         init_op = tf.global_variables_initializer()
         self._session.run(init_op)
 
-        self._saver.restore(self._session, "model/model.ckpt")
+        self._saver.restore(self._session, model_path)
 
     def detect(self, imgLocation):
         cv_image = cv2.imread(imgLocation, 0)
-
         ret, cv_image_binary = cv2.threshold(cv_image, 128, 255, cv2.THRESH_BINARY_INV)
         cv_image_28 = cv2.resize(cv_image_binary, (28, 28))
         np_image = np.reshape(cv_image_28, (1, 28, 28, 1))
         predict_num = self._session.run(self.y_conv, feed_dict={self.x: np_image, self.keep_prob: 1.0})
 
+        # print("cv_image")
+        # print(cv_image)
+        # print("cv_image_binary")
+        # print(cv_image_binary)
+        # print("cv_image_28")
+        # print(cv_image_28)
+
         return np.argmax(predict_num, 1)[0]
 
-
-if __name__ == '__main__':
-    detector = handwritingDetection()
-    print(detector.detect('image_7.png'))
-    print(detector.detect('image_3.png'))
+#
+# if __name__ == "__main__":
+#     detector = handwritingDetection("model/model.ckpt")
+#     # print(detector.detect('image_3.png'))
+#     # print(detector.detect('out_r.png'))
+#     print(detector.detect('my_network/out.png'))
