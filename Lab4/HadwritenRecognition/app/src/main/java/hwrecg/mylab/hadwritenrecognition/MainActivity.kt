@@ -11,13 +11,11 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.graphics.Bitmap
 import android.view.MotionEvent
 import android.graphics.Bitmap.CompressFormat
-import android.os.Environment
 import org.jetbrains.anko.doAsync
-import java.io.File
-import java.io.FileOutputStream
-import java.io.DataOutputStream
-import java.io.FileInputStream
+import java.io.*
 import java.net.Socket
+import android.util.Log
+import java.nio.ByteBuffer
 
 
 class MainActivity : Activity() {
@@ -28,11 +26,11 @@ class MainActivity : Activity() {
     var path: Path = Path()
     var bitmap: Bitmap? = null
 
-    val pathToFile = Environment.getExternalStorageDirectory().absolutePath+"/Android/data/hwrecg.mylab.hadwritenrecognition/files/image.png";
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val pathToFile = getExternalFilesDir(null).absolutePath + "/image.png"
 
         view = SketchSheetView(this)
 
@@ -47,13 +45,16 @@ class MainActivity : Activity() {
         paint.strokeCap = Paint.Cap.ROUND
         paint.strokeWidth = 80F
 
+        val image = File(pathToFile)
+        image.createNewFile()
+
         button_clear.setOnClickListener { path.reset() }
         button_save.setOnClickListener {
             val b = (view as SketchSheetView).drawingCache
-            val file = FileOutputStream(File(pathToFile))
+            val file = FileOutputStream(image)
             b.compress(CompressFormat.PNG, 95, file)
 
-            sendFile(pathToFile, "10.42.0.1", 9090)
+            sendFile(image, "10.0.2.124", 9090)
             (view as SketchSheetView).destroyDrawingCache()
         }
 
@@ -64,7 +65,7 @@ class MainActivity : Activity() {
         private val drawingClassArrayList = ArrayList<DrawingClass>()
 
         init {
-            bitmap = Bitmap.createBitmap(28, 28, Bitmap.Config.ARGB_8888)
+            bitmap = Bitmap.createBitmap(800, 800, Bitmap.Config.ARGB_8888)
             canvas = Canvas(bitmap)
             this.setBackgroundColor(Color.WHITE)
         }
@@ -107,19 +108,46 @@ class MainActivity : Activity() {
     }
 
 
-    fun sendFile(file: String, host: String, port: Int) {
+//    fun sendFile(file: File, host: String, port: Int) {
+//        doAsync {
+//            try {
+//                val s = Socket(host, port)
+//
+//                val dos = DataOutputStream(s.getOutputStream())
+//                val fis = FileInputStream(file)
+//                val buffer = ByteArray(4096)
+//
+//                while (fis.read(buffer) > 0) {
+//                    dos.write(buffer)
+//                }
+//                fis.close()
+//                dos.close()
+//            } catch (e: Exception) {
+//                e.printStackTrace()
+//            }
+//        }
+//    }
+
+    fun sendFile(file: File, host: String, port: Int) {
         doAsync {
             try {
-
                 val s = Socket(host, port)
 
                 val dos = DataOutputStream(s.getOutputStream())
                 val fis = FileInputStream(file)
-                val buffer = ByteArray(4096)
+                val buff = ByteArray(4096)
+                val byteArrayOutputStream = ByteArrayOutputStream()
 
-                while (fis.read(buffer) > 0) {
-                    dos.write(buffer)
+                while (fis.read(buff) > 0) {
+                    byteArrayOutputStream.write(buff)
                 }
+
+                Log.d("File_Size", byteArrayOutputStream.size().toString())
+
+                dos.write(byteArrayOutputStream.size().toByteArray())
+                dos.write(byteArrayOutputStream.toByteArray())
+                dos.flush()
+
                 fis.close()
                 dos.close()
             } catch (e: Exception) {
@@ -129,6 +157,17 @@ class MainActivity : Activity() {
     }
 
 
+    fun Long.longToBytes(): ByteArray {
+        val buffer = ByteBuffer.allocate(java.lang.Long.BYTES)
+        buffer.putLong(this)
+        return buffer.array()
+    }
+
+    fun Int.toByteArray(): ByteArray {
+        return byteArrayOf(this.ushr(24).toByte(), this.ushr(16).toByte(), this.ushr(8).toByte(), this.toByte())
+    }
+
 }
+
 
 
