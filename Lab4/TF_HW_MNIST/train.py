@@ -81,9 +81,9 @@ saver = tf.train.Saver(keep_checkpoint_every_n_hours=1.0)
 sess = tf.InteractiveSession()
 sess.run(tf.global_variables_initializer())
 
-batchSize = 50
+batchSize = 70
 
-for i in range(3000):
+for i in range(20000):
     batch = mnist.train.next_batch(50)
     image = change_size(batch[0])
     if i % 1000 == 0:

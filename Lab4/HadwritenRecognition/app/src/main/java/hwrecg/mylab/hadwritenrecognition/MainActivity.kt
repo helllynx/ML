@@ -15,6 +15,7 @@ import org.jetbrains.anko.doAsync
 import java.io.*
 import java.net.Socket
 import android.util.Log
+import org.jetbrains.anko.toast
 import java.nio.ByteBuffer
 import java.nio.file.Files.size
 
@@ -46,7 +47,7 @@ class MainActivity : Activity() {
         paint.style = Paint.Style.STROKE
         paint.strokeJoin = Paint.Join.ROUND
         paint.strokeCap = Paint.Cap.ROUND
-        paint.strokeWidth = 120F
+        paint.strokeWidth = 100F
 
         val image = File(pathToFile)
         image.createNewFile()
@@ -57,8 +58,8 @@ class MainActivity : Activity() {
             val b = (view as SketchSheetView).drawingCache
             val file = FileOutputStream(image)
             b.compress(CompressFormat.PNG, 100, file)
-
             sendFile(image, "10.0.2.124", 9090)
+
             (view as SketchSheetView).destroyDrawingCache()
         }
 
@@ -132,7 +133,7 @@ class MainActivity : Activity() {
 //        }
 //    }
 
-    fun sendFile(file: File, host: String, port: Int) {
+    fun sendFile(file: File, host: String, port: Int){
         doAsync {
             try {
                 val socket = Socket(host, port)
@@ -140,23 +141,26 @@ class MainActivity : Activity() {
 
                 val fis = FileInputStream(file)
 
-                val buffer = ByteArray(4096)
+                val buffer = ByteArray(1448)
                 val byteArrayOutputStream = ByteArrayOutputStream()
 
                 while (fis.read(buffer) > 0) {
                     byteArrayOutputStream.write(buffer)
                 }
 
-
                 val size = ByteBuffer.allocate(4).putInt(byteArrayOutputStream.size()).array()
                 outputStream.write(size)
                 outputStream.write(byteArrayOutputStream.toByteArray())
                 outputStream.flush()
-                Log.d("IMAGE____","Flushed: " + System.currentTimeMillis())
 
-                Thread.sleep(120000)
-                Log.d("IMAGE____","Closing: " + System.currentTimeMillis())
+                val sio = socket.getInputStream()
+                val b = sio.read()
                 socket.close()
+
+                runOnUiThread {
+                    toast(b.toString())
+                }
+
             } catch (e: Exception) {
                 e.printStackTrace()
             }
