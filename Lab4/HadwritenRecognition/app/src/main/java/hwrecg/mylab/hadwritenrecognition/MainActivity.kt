@@ -16,6 +16,9 @@ import java.io.*
 import java.net.Socket
 import android.util.Log
 import java.nio.ByteBuffer
+import java.nio.file.Files.size
+
+
 
 
 class MainActivity : Activity() {
@@ -35,24 +38,25 @@ class MainActivity : Activity() {
         view = SketchSheetView(this)
 
         releativeLayout.addView(view, RelativeLayout.LayoutParams(
-                MATCH_PARENT,
-                MATCH_PARENT))
+                1200,
+                1200))
         (view as SketchSheetView).isDrawingCacheEnabled = true
         paint.isDither = true
         paint.color = Color.parseColor("#000000")
         paint.style = Paint.Style.STROKE
         paint.strokeJoin = Paint.Join.ROUND
         paint.strokeCap = Paint.Cap.ROUND
-        paint.strokeWidth = 80F
+        paint.strokeWidth = 120F
 
         val image = File(pathToFile)
         image.createNewFile()
 
-        button_clear.setOnClickListener { path.reset() }
+        button_clear.setOnClickListener { path.reset()
+            (view as SketchSheetView).destroyDrawingCache()}
         button_save.setOnClickListener {
             val b = (view as SketchSheetView).drawingCache
             val file = FileOutputStream(image)
-            b.compress(CompressFormat.PNG, 95, file)
+            b.compress(CompressFormat.PNG, 100, file)
 
             sendFile(image, "10.0.2.124", 9090)
             (view as SketchSheetView).destroyDrawingCache()
@@ -65,7 +69,7 @@ class MainActivity : Activity() {
         private val drawingClassArrayList = ArrayList<DrawingClass>()
 
         init {
-            bitmap = Bitmap.createBitmap(800, 800, Bitmap.Config.ARGB_8888)
+            bitmap = Bitmap.createBitmap(1200, 1200, Bitmap.Config.ARGB_8888)
             canvas = Canvas(bitmap)
             this.setBackgroundColor(Color.WHITE)
         }
@@ -106,8 +110,8 @@ class MainActivity : Activity() {
         var path: Path? = null
         var paint: Paint? = null
     }
-
-
+//
+//
 //    fun sendFile(file: File, host: String, port: Int) {
 //        doAsync {
 //            try {
@@ -131,25 +135,28 @@ class MainActivity : Activity() {
     fun sendFile(file: File, host: String, port: Int) {
         doAsync {
             try {
-                val s = Socket(host, port)
+                val socket = Socket(host, port)
+                val outputStream = socket.getOutputStream()
 
-                val dos = DataOutputStream(s.getOutputStream())
                 val fis = FileInputStream(file)
-                val buff = ByteArray(4096)
+
+                val buffer = ByteArray(4096)
                 val byteArrayOutputStream = ByteArrayOutputStream()
 
-                while (fis.read(buff) > 0) {
-                    byteArrayOutputStream.write(buff)
+                while (fis.read(buffer) > 0) {
+                    byteArrayOutputStream.write(buffer)
                 }
 
-                Log.d("File_Size", byteArrayOutputStream.size().toString())
 
-                dos.write(byteArrayOutputStream.size().toByteArray())
-                dos.write(byteArrayOutputStream.toByteArray())
-                dos.flush()
+                val size = ByteBuffer.allocate(4).putInt(byteArrayOutputStream.size()).array()
+                outputStream.write(size)
+                outputStream.write(byteArrayOutputStream.toByteArray())
+                outputStream.flush()
+                Log.d("IMAGE____","Flushed: " + System.currentTimeMillis())
 
-                fis.close()
-                dos.close()
+                Thread.sleep(120000)
+                Log.d("IMAGE____","Closing: " + System.currentTimeMillis())
+                socket.close()
             } catch (e: Exception) {
                 e.printStackTrace()
             }

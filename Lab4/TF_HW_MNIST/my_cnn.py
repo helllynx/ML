@@ -68,6 +68,8 @@ class handwritingDetection():
         cv_image = cv2.imread(imgLocation, 0)
         ret, cv_image_binary = cv2.threshold(cv_image, 128, 255, cv2.THRESH_BINARY_INV)
         cv_image_28 = cv2.resize(cv_image_binary, (28, 28))
+        with open('img.txt', 'w') as file:
+            file.write(np.array2string(cv_image_28, precision=2, separator='', max_line_width=200))
         np_image = np.reshape(cv_image_28, (1, 28, 28, 1))
         predict_num = self._session.run(self.y_conv, feed_dict={self.x: np_image, self.keep_prob: 1.0})
 
@@ -81,8 +83,6 @@ class handwritingDetection():
         return np.argmax(predict_num, 1)[0]
 
 #
-# if __name__ == "__main__":
-#     detector = handwritingDetection("model/model.ckpt")
-#     # print(detector.detect('image_3.png'))
-#     # print(detector.detect('out_r.png'))
-#     print(detector.detect('my_network/out.png'))
+if __name__ == "__main__":
+    detector = handwritingDetection("model/model.ckpt")
+    print(detector.detect('image_7.png'))

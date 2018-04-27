@@ -1,5 +1,5 @@
 import socket
-# from TF_HW_MNIST.my_cnn import handwritingDetection
+from TF_HW_MNIST.my_cnn import handwritingDetection
 import time
 import binascii
 
@@ -17,7 +17,7 @@ serv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serv.bind(ADDR)
 serv.listen(5)
 
-# detector = handwritingDetection("../model/model.ckpt")
+detector = handwritingDetection("../model/model.ckpt")
 
 print('listening ...')
 
@@ -43,7 +43,7 @@ while True:
     print('client disconnected')
 
 
-
+#
 # while True:
 #     conn, addr = serv.accept()
 #     print('client connected ... ', addr)
@@ -56,11 +56,11 @@ while True:
 #
 #     myfile.close()
 #     # conn.send(detector.detect('out.png'))
-#     conn.send(b'FUCKYOU')
-#     # print(detector.detect('out.png'))
+#     # conn.send(b'FUCKYOU')
+#     print(detector.detect('out.png'))
 #     print('finished writing file')
 #     conn.close()
 #     print('client disconnected')
 #
-
+#
 
