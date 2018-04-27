@@ -58,7 +58,7 @@ class MainActivity : Activity() {
             val b = (view as SketchSheetView).drawingCache
             val file = FileOutputStream(image)
             b.compress(CompressFormat.PNG, 100, file)
-            sendFile(image, "10.0.2.124", 9090)
+            sendFile(image, "195.9.98.82", 12480)
 
             (view as SketchSheetView).destroyDrawingCache()
         }

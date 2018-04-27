@@ -1,5 +1,5 @@
 import socket
-from TF_HW_MNIST.my_cnn import handwritingDetection
+from NN.my_cnn import handwritingDetection
 import binascii
 
 
@@ -7,7 +7,7 @@ def hexint(b):
     return int(binascii.hexlify(b), 16)
 
 HOST = '0.0.0.0'
-PORT = 9090
+PORT = 80
 ADDR = (HOST, PORT)
 BUFSIZE = 1448 #strange stuff but, it is maximum buffer size....
 
@@ -16,7 +16,7 @@ serv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serv.bind(ADDR)
 serv.listen(5)
 
-detector = handwritingDetection("../model/model.ckpt")
+detector = handwritingDetection("/home/yenq/MIET/ML/Lab4/server/NN/model/model.ckpt")
 
 print('Listening ...')
 

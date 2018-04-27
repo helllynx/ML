@@ -2,16 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5adfebcd-7a30-4752-a63f-ba9b4df675fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_HW_MNIST/model/model.ckpt.data-00000-of-00001" afterPath="$PROJECT_DIR$/TF_HW_MNIST/model/model.ckpt.data-00000-of-00001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_HW_MNIST/model/model.ckpt.index" afterPath="$PROJECT_DIR$/TF_HW_MNIST/model/model.ckpt.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_HW_MNIST/model/model.ckpt.meta" afterPath="$PROJECT_DIR$/TF_HW_MNIST/model/model.ckpt.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_network/out.png" afterPath="$PROJECT_DIR$/TF_HW_MNIST/my_network/out.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HadwritenRecognition/app/src/main/java/hwrecg/mylab/hadwritenrecognition/MainActivity.kt" afterPath="$PROJECT_DIR$/HadwritenRecognition/app/src/main/java/hwrecg/mylab/hadwritenrecognition/MainActivity.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" afterPath="$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" afterPath="$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_network/img.txt" afterPath="$PROJECT_DIR$/TF_HW_MNIST/my_network/img.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_HW_MNIST/train.py" afterPath="$PROJECT_DIR$/TF_HW_MNIST/train.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HadwritenRecognition/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HadwritenRecognition/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HadwritenRecognition/app/src/main/java/hwrecg/mylab/hadwritenrecognition/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HadwritenRecognition/app/src/main/java/hwrecg/mylab/hadwritenrecognition/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/.ipynb_checkpoints/Lab4-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/Lab4.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/image_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/image_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/input_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/model/model.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/model/model.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/model/model.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_network/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_network/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_network/img.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/my_network/out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/out_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/torecv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_HW_MNIST/train.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,19 +45,19 @@
     <SUITE FILE_PATH="coverage/Lab4$image_generator.coverage" NAME="image_generator Coverage Results" MODIFIED="1523384713908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lab4$dig_tf.coverage" NAME="dig_tf Coverage Results" MODIFIED="1523384729159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Lab4$my_cnn.coverage" NAME="my_cnn Coverage Results" MODIFIED="1524821044990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TF_HW_MNIST" />
+    <SUITE FILE_PATH="coverage/Lab4$andro_net.coverage" NAME="andro_net Coverage Results" MODIFIED="1524826053587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TF_HW_MNIST/my_network" />
     <SUITE FILE_PATH="coverage/Lab4$train.coverage" NAME="train Coverage Results" MODIFIED="1524822963092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TF_HW_MNIST" />
-    <SUITE FILE_PATH="coverage/Lab4$andro_net.coverage" NAME="andro_net Coverage Results" MODIFIED="1524825279521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TF_HW_MNIST/my_network" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Lab4" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="andro_net.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -45,29 +65,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/img.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="87" lean-forward="false" selection-start-line="0" selection-start-column="87" selection-end-line="0" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -76,10 +81,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" />
         <option value="$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" />
         <option value="$PROJECT_DIR$/TF_HW_MNIST/train.py" />
         <option value="$PROJECT_DIR$/TF_HW_MNIST/my_network/img.txt" />
+        <option value="$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" />
+        <option value="$PROJECT_DIR$/server/server.py" />
       </list>
     </option>
   </component>
@@ -96,22 +102,11 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,13 +117,20 @@
             <path>
               <item name="Lab4" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab4" type="462c0819:PsiDirectoryNode" />
-              <item name="TF_HW_MNIST" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lab4" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab4" type="462c0819:PsiDirectoryNode" />
-              <item name="TF_HW_MNIST" type="462c0819:PsiDirectoryNode" />
-              <item name="my_network" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="NN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="NN" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,6 +143,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TF_HW_MNIST" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,6 +166,7 @@
   </component>
   <component name="RunManager" selected="Python.andro_net">
     <configuration name="andro_net" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lab4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -166,14 +177,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lab4" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lab4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -184,14 +196,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lab4" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="my_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lab4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -202,14 +215,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lab4" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Lab4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -220,29 +234,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Lab4" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TF_HW_MNIST/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.andro_net" />
-      <item index="2" class="java.lang.String" itemvalue="Python.my_cnn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.train" />
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.andro_net" />
+      <item itemvalue="Python.my_cnn" />
+      <item itemvalue="Python.train" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.andro_net" />
-        <item index="1" class="java.lang.String" itemvalue="Python.train" />
-        <item index="2" class="java.lang.String" itemvalue="Python.my_cnn" />
+      <list>
+        <item itemvalue="Python.andro_net" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.my_cnn" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -258,28 +269,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="964" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1410" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16595517" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27427962" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Run" order="5" weight="0.27427962" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32942098" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16746221" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32977587" />
+      <window_info anchor="right" id="SciView" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="1" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32947367" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,112 +306,19 @@
     <breakpoint-manager>
       <option name="time" value="3" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/out.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/img.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="87" lean-forward="false" selection-start-line="0" selection-start-column="87" selection-end-line="0" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="69" column="59" lean-forward="true" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/out.png" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/img.txt" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/train.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" />
     <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/dig_tf.py" />
     <entry file="file://$PROJECT_DIR$/image_generator.py" />
@@ -423,51 +344,20 @@
     <entry file="file://$PROJECT_DIR$/dig_tf.py" />
     <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/main.py" />
     <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/img.txt" />
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/image_7.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/out.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py">
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/image_7.png" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/out.png" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_cnn.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/train.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/img.txt" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/andro_net.py" />
+    <entry file="file://$PROJECT_DIR$/server/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_HW_MNIST/my_network/img.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="87" lean-forward="false" selection-start-line="0" selection-start-column="87" selection-end-line="0" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
