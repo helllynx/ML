@@ -14,17 +14,19 @@
 
     </RelativeLayout>
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:text="@string/clear"
         android:id="@+id/button_clear"
+        android:layout_margin="20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"/>
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:text="@string/send"
         android:id="@+id/button_save"
+        android:layout_margin="20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"/>
 </RelativeLayout>

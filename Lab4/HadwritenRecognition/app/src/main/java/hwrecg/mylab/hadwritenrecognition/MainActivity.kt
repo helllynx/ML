@@ -11,11 +11,10 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.graphics.Bitmap
 import android.view.MotionEvent
 import android.graphics.Bitmap.CompressFormat
-import org.jetbrains.anko.doAsync
 import java.io.*
 import java.net.Socket
 import android.util.Log
-import org.jetbrains.anko.toast
+import org.jetbrains.anko.*
 import java.nio.ByteBuffer
 import java.nio.file.Files.size
 
@@ -111,27 +110,6 @@ class MainActivity : Activity() {
         var path: Path? = null
         var paint: Paint? = null
     }
-//
-//
-//    fun sendFile(file: File, host: String, port: Int) {
-//        doAsync {
-//            try {
-//                val s = Socket(host, port)
-//
-//                val dos = DataOutputStream(s.getOutputStream())
-//                val fis = FileInputStream(file)
-//                val buffer = ByteArray(4096)
-//
-//                while (fis.read(buffer) > 0) {
-//                    dos.write(buffer)
-//                }
-//                fis.close()
-//                dos.close()
-//            } catch (e: Exception) {
-//                e.printStackTrace()
-//            }
-//        }
-//    }
 
     fun sendFile(file: File, host: String, port: Int){
         doAsync {
@@ -158,24 +136,20 @@ class MainActivity : Activity() {
                 socket.close()
 
                 runOnUiThread {
-                    toast(b.toString())
+//                    alert(b.toString())
+//                    toast(b.toString())
+
+                    alert("You number is ${b} - it is correct?") {
+                        title = "Recognition"
+                        yesButton { toast("Yess!!!") }
+                        noButton { toast("Sorry =(")}
+                    }.show()
                 }
 
             } catch (e: Exception) {
                 e.printStackTrace()
             }
         }
-    }
-
-
-    fun Long.longToBytes(): ByteArray {
-        val buffer = ByteBuffer.allocate(java.lang.Long.BYTES)
-        buffer.putLong(this)
-        return buffer.array()
-    }
-
-    fun Int.toByteArray(): ByteArray {
-        return byteArrayOf(this.ushr(24).toByte(), this.ushr(16).toByte(), this.ushr(8).toByte(), this.toByte())
     }
 
 }
